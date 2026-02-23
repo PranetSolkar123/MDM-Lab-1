@@ -12,3 +12,37 @@ body{
     text-shadow: 2px 4px 4px rgb(0,0,0) ;
 
 }
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.a{
+    
+    color: aliceblue;
+    text-decoration: none;
+    text-box: 15px;
+}
+
+.a:hover{
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+    text-shadow: none;
+}
+.a:active{
+    box-shadow: 0 0 15px rgba(255,0,0,0.5);
+    border-radius: 5px;
+}
+
+.span1{
+    
+    
+}
