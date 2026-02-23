@@ -1,0 +1,14 @@
+h1, h2, p{
+    text-align: center;
+}
+
+body{
+    background-image: url("Marvel2.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 4px 4px rgb(0,0,0) ;
+
+}
