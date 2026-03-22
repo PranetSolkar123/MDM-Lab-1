@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiment 5</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
     <script>
         function changepara(){
         const notice = document.getElementById("notice1");
         notice.innerText = "This is Notice 2: IA-2 will start from 11th April.";
 
         }
+
+        $(document).ready(function() {
+            $('#hidebtn').click(function() {
+                $('#notice1').hide();
+        });
+
+            $('#showbtn').click(function() {
+                $('#notice1').show();
+        });
+        
+            $('#togglebtn').click(function() {
+                $('#notice1').toggle();
+        });
+
+        });
+        
+
+
     </script>
     
 </head>
@@ -19,5 +38,9 @@
         Click Me
     </button>
     <p id="notice1">This is Notice 1: We have Holiday on 19th March.</p>
+
+    <button id="hidebtn">Hide Notice</button>
+    <button id="showbtn">Show Notice</button>
+    <button id="togglebtn">Toggle Notice</button>
 </body>
 </html>
